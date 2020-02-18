@@ -7,8 +7,8 @@ namespace ThickModelTest.Model
 {
     public class Company
     {
-        public string Name { get; set; }
-        public int Employees { get; set; }
+        private string Name { get; set; }
+        private int Employees { get; set; }
         public Company(string name, int emp)
         {
             this.Name = name;
